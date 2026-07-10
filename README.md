@@ -97,16 +97,42 @@ Linux-Server-Monitor/
 
 └── screenshots/
 
-      ├── cpu-monitor.png
-      
-      ├── email-alert.png
-      
-      ├── cron-job.png
-      
-      └── logs.png
-
+       ├── rhel-server.png  
+       ├── mpstat-output.png
+       ├── script-execution.png
+       ├── log-output.png
+       ├── cron-job.png
+       ├── postfix-status.png
+       ├── stress-test.png
+       └── email-alert.png
 
 ---
+# Output From the Project
+1.RHEL-Server.png
+<img width="1522" height="840" alt="image" src="https://github.com/user-attachments/assets/3da78248-088f-4dfe-b280-3a1923ee0cb8" />
+2.mpstat-output.png
+<img width="1522" height="840" alt="image" src="https://github.com/user-attachments/assets/6ef0426c-f093-43c2-86be-e6e2ee24576b" />
+3.Script-execution.png
+<img width="1388" height="772" alt="image" src="https://github.com/user-attachments/assets/d419c227-5a2b-4e8c-b532-dc6bf11a5911" />
+4.log-output.png
+<img width="1290" height="698" alt="image" src="https://github.com/user-attachments/assets/2ab6e347-841f-4974-9c51-5d4923a630de" />
+5.cron-job.png
+<img width="1300" height="714" alt="image" src="https://github.com/user-attachments/assets/6d09ca5c-c613-4224-bc22-c3f1b4806cd5" />
+6.psotfix-status.png
+<img width="1572" height="868" alt="image" src="https://github.com/user-attachments/assets/c2f3f9c6-ec75-4e7f-944f-621b31828df6" />
+7.stress-test.png
+<img width="1514" height="830" alt="image" src="https://github.com/user-attachments/assets/04ec0cf3-047a-4393-bccb-b17bcc7f1281" />
+8.email-alert.png
+<img width="1462" height="645" alt="Screenshot 2026-07-10 233153" src="https://github.com/user-attachments/assets/5a41b2e4-5067-461a-9a4e-f23ea181701e" />
+
+
+
+
+
+
+
+
+
 
 # ⚙️ Installation Steps
 
@@ -368,42 +394,18 @@ Automatic alert email will be sent.
 
 ---
 
-# 📊 Sample Log Output
+# 📊 Log Output
 
 
 cpu_usage.log
 
-```text
-Fri Jul 10 18:20 CPU Usage: 5.20%
-
-Fri Jul 10 18:25 CPU Usage: 91.50%
-
-Alert Email Sent
-```
+<img width="1292" height="704" alt="WhatsApp Image 2026-07-10 at 11 46 34 PM" src="https://github.com/user-attachments/assets/5b412b14-bfa9-484f-902b-f6239f680290" />
 
 ---
 
-# 📩 Email Alert Example
+# 📩 Email Alert Output
 
-Subject:
-
-```
-CPU ALERT High Usage
-```
-
-Message:
-
-```
-WARNING!
-
-High CPU Usage Detected
-
-Server: RHEL9
-
-CPU Usage: 95%
-
-Immediate action required
-```
+<img width="731" height="323" alt="image" src="https://github.com/user-attachments/assets/873681b9-eed1-4a1b-8038-92bf6d209207" />
 
 ---
 
